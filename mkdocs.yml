@@ -1,0 +1,19 @@
+site_name: Atomic Ledger
+site_description: Immutable double-entry transaction ledger
+site_url: https://vindicta-platform.github.io/Atomic-Ledger-Py/
+
+repo_name: vindicta-platform/Atomic-Ledger-Py
+repo_url: https://github.com/vindicta-platform/Atomic-Ledger-Py
+
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: brown
+      accent: orange
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Contributing: contributing.md
+plugins:
+  - search
