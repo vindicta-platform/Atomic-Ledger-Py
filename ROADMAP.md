@@ -1,33 +1,46 @@
-# Roadmap
+# Atomic-Ledger-Py Roadmap
 
-Strategic roadmap for Atomic-Ledger-Py.
-
-## Vision
-
-Provide a reliable, auditable financial ledger for Python applications requiring strict accounting integrity.
+> **Vision**: Python bindings for Atomic Ledger contract audit  
+> **Status**: Utility (P3)  
+> **Last Updated**: 2026-02-03
 
 ---
 
-## v0.1.0 - Foundation (Current)
+## v1.0 Target: As Needed
 
-- [x] Initialize repository structure
-- [ ] Define `Ledger` and `Transaction` core classes
-- [ ] Implement double-entry balance enforcement
-- [ ] Add hash chain for immutability
-
-## v0.2.0 - Core Features
-
-- [ ] Transaction rollback (compensating entries)
-- [ ] Multi-currency support
-- [ ] Account hierarchies
-- [ ] Query interface
-
-## v1.0.0 - Production Ready
-
-- [ ] Performance optimization
-- [ ] Comprehensive test suite
-- [ ] PyPI publication
+### Mission Statement
+Provide Python bindings and utilities for interacting with blockchain-based ledger contracts, if and when needed for platform features.
 
 ---
 
-*Last updated: 2026-02-01*
+## Current Status: Low Priority
+
+Atomic-Ledger-Py is a **utility package** with no immediate dependencies from core products. Development is on-demand.
+
+---
+
+## Roadmap
+
+| Phase | Target | Status |
+|-------|--------|--------|
+| v0.1.0 | Basic bindings | 🔲 On-demand |
+| v0.2.0 | Audit tools | 🔲 On-demand |
+| v1.0.0 | Production | 🔲 On-demand |
+
+---
+
+## When Needed For
+
+- Blockchain-based proof verification
+- Decentralized tournament results
+- NFT integration (if ever pursued)
+
+---
+
+## Dependencies
+
+None from core platform. This is a standalone utility.
+
+---
+
+*Maintained by: Vindicta Platform Team*
